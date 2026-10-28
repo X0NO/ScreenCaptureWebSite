@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Maven: lancer ScreenCaptureWebSite",
+    "command": "mvn compile exec:exec",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always"
+  },
+  {
+    "label": "Maven: package (jar)",
+    "command": "mvn package",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always"
+  }
+]

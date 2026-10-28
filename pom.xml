@@ -17,7 +17,16 @@
     </properties>
 
     <dependencies>
-        <!-- Ajoutez vos bibliothèques ici (voir https://central.sonatype.com) -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.51.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>3.0.8</version>
+        </dependency>
     </dependencies>
 
     <build>
